@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: telegram-service
+
+telegram:
+  bot:
+    username: 'job_platform_bot'
+    token: '8050656905:AAE8cKRkzv5FLsk51tKcSvnVOne4VYe94Ec'
