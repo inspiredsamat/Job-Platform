@@ -1,6 +1,16 @@
 spring:
   application:
     name: telegram-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/job-portal
+    username: inspiredsamat
+    password: secret
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
 
 telegram:
   bot:
