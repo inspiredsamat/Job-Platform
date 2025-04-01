@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodeDatabaseMigrationSettings" lastSelectedDirectory="telegram-service\src\main\resources\db\migration" />
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default" defaultIncludeChangeLogFile="telegram-service/src/main/resources/db/changelog/db.changelog-master.xml">
+        <packages>
+          <package value="kz.inspiredsamat" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
