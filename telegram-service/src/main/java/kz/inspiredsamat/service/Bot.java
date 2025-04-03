@@ -15,32 +15,33 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 @Slf4j
 @SuppressWarnings("deprecation")
 public class Bot extends TelegramLongPollingBot {
-    private final BotConfiguration botConfiguration;
-    private final UpdateHandler updateHandler;
 
-    public Bot(BotConfiguration botConfiguration,
-               TelegramBotsApi telegramBotsApi,
-               UpdateHandler updateHandler) throws TelegramApiException {
-        this.botConfiguration = botConfiguration;
-        this.updateHandler = updateHandler;
-        telegramBotsApi.registerBot(this);
-    }
+  private final BotConfiguration botConfiguration;
+  private final UpdateHandler updateHandler;
 
-    @Override
-    public String getBotUsername() {
-        return botConfiguration.getUsername();
-    }
+  public Bot(BotConfiguration botConfiguration,
+      TelegramBotsApi telegramBotsApi,
+      UpdateHandler updateHandler) throws TelegramApiException {
+    this.botConfiguration = botConfiguration;
+    this.updateHandler = updateHandler;
+    telegramBotsApi.registerBot(this);
+  }
 
-    @Override
-    public String getBotToken() {
-        return botConfiguration.getToken();
-    }
+  @Override
+  public String getBotUsername() {
+    return botConfiguration.getUsername();
+  }
 
-    @SneakyThrows
-    @Override
-    public void onUpdateReceived(Update update) {
-        log.info("Update received: {}", update);
-        SendMessage message = updateHandler.handle(update);
-        execute(message);
-    }
+  @Override
+  public String getBotToken() {
+    return botConfiguration.getToken();
+  }
+
+  @SneakyThrows
+  @Override
+  public void onUpdateReceived(Update update) {
+    log.info("Update received: {}", update);
+    SendMessage message = updateHandler.handle(update);
+    execute(message);
+  }
 }

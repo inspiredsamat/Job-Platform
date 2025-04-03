@@ -9,7 +9,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @EnableConfigurationProperties
 @SpringBootApplication
 public class TelegramApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(TelegramApplication.class, args);
-    }
+
+  public static void main(String[] args) {
+    SpringApplication.run(TelegramApplication.class, args);
+  }
 }
