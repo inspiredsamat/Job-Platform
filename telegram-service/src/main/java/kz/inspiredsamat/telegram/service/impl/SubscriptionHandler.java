@@ -1,14 +1,14 @@
-package kz.inspiredsamat.service.impl;
+package kz.inspiredsamat.telegram.service.impl;
 
-import static kz.inspiredsamat.entity.enums.State.REGISTERED;
+import static kz.inspiredsamat.telegram.entity.enums.State.REGISTERED;
 
 import java.util.Arrays;
 import java.util.List;
-import kz.inspiredsamat.entity.Keyword;
-import kz.inspiredsamat.entity.User;
-import kz.inspiredsamat.service.KeywordService;
-import kz.inspiredsamat.service.UserService;
-import kz.inspiredsamat.service.handler.MessageHandler;
+import kz.inspiredsamat.telegram.entity.Keyword;
+import kz.inspiredsamat.telegram.entity.User;
+import kz.inspiredsamat.telegram.service.KeywordService;
+import kz.inspiredsamat.telegram.service.UserService;
+import kz.inspiredsamat.telegram.service.handler.MessageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;

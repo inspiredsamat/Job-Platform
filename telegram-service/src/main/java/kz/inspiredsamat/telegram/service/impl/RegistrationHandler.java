@@ -1,13 +1,13 @@
-package kz.inspiredsamat.service.impl;
+package kz.inspiredsamat.telegram.service.impl;
 
-import static kz.inspiredsamat.entity.enums.State.MISSING_LASTNAME;
-import static kz.inspiredsamat.entity.enums.State.NOT_REGISTERED;
-import static kz.inspiredsamat.entity.enums.State.REGISTERED;
+import static kz.inspiredsamat.telegram.entity.enums.State.MISSING_LASTNAME;
+import static kz.inspiredsamat.telegram.entity.enums.State.NOT_REGISTERED;
+import static kz.inspiredsamat.telegram.entity.enums.State.REGISTERED;
 
-import kz.inspiredsamat.entity.User;
-import kz.inspiredsamat.exception.UserNotFoundException;
-import kz.inspiredsamat.service.UserService;
-import kz.inspiredsamat.service.handler.MessageHandler;
+import kz.inspiredsamat.telegram.entity.User;
+import kz.inspiredsamat.telegram.exception.UserNotFoundException;
+import kz.inspiredsamat.telegram.service.UserService;
+import kz.inspiredsamat.telegram.service.handler.MessageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;

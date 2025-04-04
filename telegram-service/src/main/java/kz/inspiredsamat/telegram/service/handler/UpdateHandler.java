@@ -1,12 +1,12 @@
-package kz.inspiredsamat.service.handler;
+package kz.inspiredsamat.telegram.service.handler;
 
-import static kz.inspiredsamat.entity.enums.State.NOT_REGISTERED;
+import static kz.inspiredsamat.telegram.entity.enums.State.NOT_REGISTERED;
 
 import java.util.List;
 import java.util.Optional;
-import kz.inspiredsamat.entity.User;
-import kz.inspiredsamat.exception.UnsupportedCommandException;
-import kz.inspiredsamat.service.UserService;
+import kz.inspiredsamat.telegram.entity.User;
+import kz.inspiredsamat.telegram.exception.UnsupportedCommandException;
+import kz.inspiredsamat.telegram.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package kz.inspiredsamat.entity.enums;
+package kz.inspiredsamat.telegram.entity.enums;
 
 public enum State {
   NOT_REGISTERED,

@@ -1,4 +1,4 @@
-package kz.inspiredsamat.exception;
+package kz.inspiredsamat.telegram.exception;
 
 public class UserNotFoundException extends RuntimeException {
 

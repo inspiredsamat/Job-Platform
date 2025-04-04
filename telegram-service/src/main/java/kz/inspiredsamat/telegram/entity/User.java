@@ -1,4 +1,4 @@
-package kz.inspiredsamat.entity;
+package kz.inspiredsamat.telegram.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,7 +12,7 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 import java.util.HashSet;
 import java.util.Set;
-import kz.inspiredsamat.entity.enums.State;
+import kz.inspiredsamat.telegram.entity.enums.State;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

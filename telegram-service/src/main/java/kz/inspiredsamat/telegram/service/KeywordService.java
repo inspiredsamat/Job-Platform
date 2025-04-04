@@ -1,8 +1,8 @@
-package kz.inspiredsamat.service;
+package kz.inspiredsamat.telegram.service;
 
 import java.util.List;
-import kz.inspiredsamat.entity.Keyword;
-import kz.inspiredsamat.repository.KeywordRepository;
+import kz.inspiredsamat.telegram.entity.Keyword;
+import kz.inspiredsamat.telegram.repository.KeywordRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

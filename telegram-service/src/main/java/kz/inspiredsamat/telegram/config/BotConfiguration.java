@@ -1,4 +1,4 @@
-package kz.inspiredsamat.config;
+package kz.inspiredsamat.telegram.config;
 
 import lombok.Getter;
 import lombok.Setter;

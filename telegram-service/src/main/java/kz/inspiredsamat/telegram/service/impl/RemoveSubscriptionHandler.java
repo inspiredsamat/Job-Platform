@@ -1,9 +1,9 @@
-package kz.inspiredsamat.service.impl;
+package kz.inspiredsamat.telegram.service.impl;
 
-import static kz.inspiredsamat.entity.enums.State.SUBSCRIBED;
+import static kz.inspiredsamat.telegram.entity.enums.State.SUBSCRIBED;
 
-import kz.inspiredsamat.service.UserService;
-import kz.inspiredsamat.service.handler.MessageHandler;
+import kz.inspiredsamat.telegram.service.UserService;
+import kz.inspiredsamat.telegram.service.handler.MessageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;

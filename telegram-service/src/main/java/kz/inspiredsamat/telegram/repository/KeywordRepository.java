@@ -1,6 +1,6 @@
-package kz.inspiredsamat.repository;
+package kz.inspiredsamat.telegram.repository;
 
-import kz.inspiredsamat.entity.Keyword;
+import kz.inspiredsamat.telegram.entity.Keyword;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface KeywordRepository extends JpaRepository<Keyword, Long> {

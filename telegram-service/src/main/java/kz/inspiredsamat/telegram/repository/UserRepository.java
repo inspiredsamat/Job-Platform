@@ -1,6 +1,6 @@
-package kz.inspiredsamat.repository;
+package kz.inspiredsamat.telegram.repository;
 
-import kz.inspiredsamat.entity.User;
+import kz.inspiredsamat.telegram.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

@@ -1,4 +1,4 @@
-package kz.inspiredsamat.service;
+package kz.inspiredsamat.telegram.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

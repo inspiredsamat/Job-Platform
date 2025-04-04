@@ -1,4 +1,4 @@
-package kz.inspiredsamat.entity;
+package kz.inspiredsamat.telegram.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

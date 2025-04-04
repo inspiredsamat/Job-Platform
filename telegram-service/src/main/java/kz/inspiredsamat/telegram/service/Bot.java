@@ -1,7 +1,7 @@
-package kz.inspiredsamat.service;
+package kz.inspiredsamat.telegram.service;
 
-import kz.inspiredsamat.config.BotConfiguration;
-import kz.inspiredsamat.service.handler.UpdateHandler;
+import kz.inspiredsamat.telegram.config.BotConfiguration;
+import kz.inspiredsamat.telegram.service.handler.UpdateHandler;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
