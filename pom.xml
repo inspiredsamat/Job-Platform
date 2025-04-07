@@ -12,6 +12,7 @@
   <modules>
     <module>telegram-service</module>
     <module>job-fetcher-service</module>
+    <module>job-publisher-service</module>
   </modules>
 
   <properties>
