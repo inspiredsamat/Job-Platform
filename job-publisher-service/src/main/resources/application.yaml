@@ -1,0 +1,7 @@
+spring:
+  application:
+  name: job-publisher-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/job-portal
+    username: inspiredsamat
+    password: secret

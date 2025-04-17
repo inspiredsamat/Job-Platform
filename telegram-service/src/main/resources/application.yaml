@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: telegram-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/job-portal
+    username: inspiredsamat
+    password: secret
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        ddl-auto: update
+    flyway:
+      baseline-on-migrate: true
+      baseline-version: 0
+
+telegram:
+  bot:
+    username: 'job_platform_bot'
+    token: ${TELEGRAM_BOT_TOKEN}
